@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <title>Marcus Modus DBT Podcast</title>
+    <link>https://www.youtube.com/channel/UCtd8GbJxsPDs0mrPMLTEiJA</link>
+    <atom:link href="https://thejosegu.github.io/marcus-modus-podcast-feed/rss.xml" rel="self" type="application/rss+xml"/>
+    <language>de-de</language>
+    <description>DBT-Skills verstaendlich erklaert -- die Audiospur der Marcus-Videos als eigenstaendiger Podcast.</description>
+    <itunes:summary>DBT-Skills verstaendlich erklaert -- die Audiospur der Marcus-Videos als eigenstaendiger Podcast.</itunes:summary>
+    <itunes:author>Marcus Modus</itunes:author>
+    <itunes:owner>
+      <itunes:name>Marcus Modus</itunes:name>
+      <itunes:email>j.sebastian.guenther@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://thejosegu.github.io/marcus-modus-podcast-feed/cover/cover-941.png"/>
+    <image>
+      <url>https://thejosegu.github.io/marcus-modus-podcast-feed/cover/cover-941.png</url>
+      <title>Marcus Modus DBT Podcast</title>
+      <link>https://www.youtube.com/channel/UCtd8GbJxsPDs0mrPMLTEiJA</link>
+    </image>
+    <itunes:category text="Health &amp; Fitness">
+      <itunes:category text="Mental Health"/>
+    </itunes:category>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+  </channel>
+</rss>
