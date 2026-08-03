@@ -9,9 +9,13 @@ Prozess. Nicht von Hand editieren, ausser fuer einmalige Notfall-Korrekturen.
 - **Feed-URL:** https://thejosegu.github.io/marcus-modus-podcast-feed/rss.xml
 - **Hosting:** GitHub Pages (main-Branch, Root)
 - **Audio:** `episodes/*.mp3`, je eine Folge = die fertig gemischte Tonspur eines Marcus-Videos
-- **Cover:** `cover/cover-941.png` -- **Platzhalter, nur 941x941px.** Spotify empfiehlt
-  mindestens 1400x1400, ideal 3000x3000. Vor der ersten echten Einreichung bei Spotify durch
-  ein hochaufgeloestes Cover ersetzen.
+- **Cover:** `cover/cover-3000.png`, 3000x3000. Gesichtszentrierter Zuschnitt aus
+  `youTubeIcon.png` (Marcus-Charakterbild), hochskaliert und mit Schriftzug "MARCUS DBT"
+  versehen -- Quelle/Herkunft: `13 SpotifyPodcast/marcus-portrait-cover-3000-titled.png` im Vault.
+  **Hinweis zur Aufloesung:** Magnific-AI-Upscale war beim Bau nicht verfuegbar (Premium-Konto
+  noetig); stattdessen Lanczos-Resampling + leichte Schaerfung (PIL). Fuer diesen flachfarbigen
+  Pop-Art-Stil optisch sauber, aber kein AI-Detail-Upscale -- bei Bedarf spaeter durch eine
+  echte AI-Hochskalierung ersetzbar.
 
 ## Einmalige Einrichtung bei Spotify
 
