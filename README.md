@@ -2,7 +2,7 @@
 
 Selbst gehosteter RSS-Feed fuer die Podcast-Distribution (Spotify for Creators, Apple Podcasts
 u. a.) der Marcus-Modus-DBT-Videos. Wird ausschliesslich vom Automations-Skript
-`13 SpotifyPodcast/toolUse/rss_feed_update.py` im Vault `F:\Video\_videoCreationWorkflow`
+`F:/MarcusModus/videoCreation/videoCreationWorkflow/13 SpotifyPodcast/toolUse/rss_feed_update.py` in Schritt 13 des Video-Creation-Workflows
 geschrieben — siehe dortiges `How-to Spotify-Podcast-RSS-Setup.md` fuer den vollstaendigen
 Prozess. Nicht von Hand editieren, ausser fuer einmalige Notfall-Korrekturen.
 
@@ -11,7 +11,7 @@ Prozess. Nicht von Hand editieren, ausser fuer einmalige Notfall-Korrekturen.
 - **Audio:** `episodes/*.mp3`, je eine Folge = die fertig gemischte Tonspur eines Marcus-Videos
 - **Cover:** `cover/cover-3000.png`, 3000x3000. Gesichtszentrierter Zuschnitt aus
   `youTubeIcon.png` (Marcus-Charakterbild), hochskaliert und mit Schriftzug "MARCUS DBT"
-  versehen -- Quelle/Herkunft: `13 SpotifyPodcast/marcus-portrait-cover-3000-titled.png` im Vault.
+  versehen -- Quelle/Herkunft: `F:/MarcusModus/videoCreation/videoCreationWorkflow/13 SpotifyPodcast/marcus-portrait-cover-3000-titled.png` im Vault.
   **Hinweis zur Aufloesung:** Magnific-AI-Upscale war beim Bau nicht verfuegbar (Premium-Konto
   noetig); stattdessen Lanczos-Resampling + leichte Schaerfung (PIL). Fuer diesen flachfarbigen
   Pop-Art-Stil optisch sauber, aber kein AI-Detail-Upscale -- bei Bedarf spaeter durch eine
