@@ -9,13 +9,20 @@ Prozess. Nicht von Hand editieren, ausser fuer einmalige Notfall-Korrekturen.
 - **Feed-URL:** https://thejosegu.github.io/marcus-modus-podcast-feed/rss.xml
 - **Hosting:** GitHub Pages (main-Branch, Root)
 - **Audio:** `episodes/*.mp3`, je eine Folge = die fertig gemischte Tonspur eines Marcus-Videos
-- **Cover:** `cover/cover-3000.png`, 3000x3000. Gesichtszentrierter Zuschnitt aus
-  `youTubeIcon.png` (Marcus-Charakterbild), hochskaliert und mit Schriftzug "MARCUS DBT"
-  versehen -- Quelle/Herkunft: `F:/MarcusModus/videoCreation/videoCreationWorkflow/13 SpotifyPodcast/marcus-portrait-cover-3000-titled.png` im Vault.
-  **Hinweis zur Aufloesung:** Magnific-AI-Upscale war beim Bau nicht verfuegbar (Premium-Konto
-  noetig); stattdessen Lanczos-Resampling + leichte Schaerfung (PIL). Fuer diesen flachfarbigen
-  Pop-Art-Stil optisch sauber, aber kein AI-Detail-Upscale -- bei Bedarf spaeter durch eine
-  echte AI-Hochskalierung ersetzbar.
+- **Show-Cover:** `cover/2026-09/show-dbt-im-alltag.jpg`, 3000x3000 RGB,
+  mit "MARCUS MODUS / DBT IM ALLTAG". Bestehendes Marcus-Motiv weiterverwendet.
+- **Folgenbilder:** jede Folge hat ein eigenes `itunes:image` mit Nummer und maximal
+  zwei Themenwoertern. Bestand unter `cover/2026-09/`, neue Folgen unter `cover/episodes/`.
+  Die Nummer steht auch im RSS-Feld `itunes:episode`.
+- **Nummerierung:** 01–26 bleiben erhalten; 27 ist fuer Gedankenkarussell reserviert
+  (noch nicht im Feed), Neid ist 28. Keine bestehende Folge umnummerieren.
+- **YouTube:** Beschreibungen enthalten den Link zur oeffentlichen Langfassung.
+  Stand 26.09.2026: 25 Links; Schuldgefuehle und Scham sind auf YouTube privat und
+  bekommen erst nach einer gesonderten Freigabe einen Link. Videos nicht automatisch freigeben.
+
+Die Cover-Umstellung vom 26.09.2026 aendert weder Audiodateien noch GUIDs,
+Audio-URLs oder Veroeffentlichungsdaten. Eingebettete MP3-Bilder bleiben unveraendert;
+Podcast-Verzeichnisse erhalten die neuen Bilder ueber RSS. OP3 ist noch nicht aktiviert.
 
 ## Einmalige Einrichtung bei Spotify
 
