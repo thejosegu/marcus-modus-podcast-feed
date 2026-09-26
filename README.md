@@ -9,11 +9,11 @@ Prozess. Nicht von Hand editieren, ausser fuer einmalige Notfall-Korrekturen.
 - **Feed-URL:** https://thejosegu.github.io/marcus-modus-podcast-feed/rss.xml
 - **Hosting:** GitHub Pages (main-Branch, Root)
 - **Audio:** `episodes/*.mp3`, je eine Folge = die fertig gemischte Tonspur eines Marcus-Videos
-- **Show-Cover:** `cover/2026-09-v2/show-dbt-im-alltag.jpg`, 3000x3000 RGB,
+- **Show-Cover:** `cover/2026-09-v3/show-dbt-im-alltag.jpg`, 3000x3000 RGB,
   mit "MARCUS MODUS / DBT IM ALLTAG". Bestehendes Marcus-Motiv weiterverwendet.
 - **Folgenbilder:** jede Folge hat ein eigenes `itunes:image` mit Nummer und maximal
   zwei Themenwoertern und der grossen Dachzeile "DBT IM ALLTAG".
-  Bestand unter `cover/2026-09-v2/`, neue Folgen unter `cover/episodes/`.
+  Bestand unter `cover/2026-09-v3/`, neue Folgen unter `cover/episodes/`.
   Die Nummer steht auch im RSS-Feld `itunes:episode`.
 - **Nummerierung:** 01–26 bleiben erhalten; 27 ist fuer Gedankenkarussell reserviert
   (noch nicht im Feed), Neid ist 28. Keine bestehende Folge umnummerieren.
@@ -35,3 +35,5 @@ Podcast-Verzeichnisse erhalten die neuen Bilder ueber RSS. OP3 ist noch nicht ak
    Adresse (`j.sebastian.guenther@gmail.com`).
 3. Danach holt Spotify neue `<item>`-Eintraege automatisch, sobald sie im Feed erscheinen --
    kein erneuter manueller Schritt pro Folge noetig.
+
+Cover-Farben: DBT IM ALLTAG hellblau (#8BD2F9), Folgentitel und Nummer weiss.
