@@ -23,7 +23,17 @@ Prozess. Nicht von Hand editieren, ausser fuer einmalige Notfall-Korrekturen.
 
 Die Cover-Umstellung vom 26.09.2026 aendert weder Audiodateien noch GUIDs,
 Audio-URLs oder Veroeffentlichungsdaten. Eingebettete MP3-Bilder bleiben unveraendert;
-Podcast-Verzeichnisse erhalten die neuen Bilder ueber RSS. OP3 ist noch nicht aktiviert.
+Podcast-Verzeichnisse erhalten die neuen Bilder ueber RSS.
+
+## Abrufstatistik mit OP3
+
+Seit 26.09.2026 werden die Audio-URLs aller 27 Folgen mit `https://op3.dev/e/`
+ausgeliefert. Neue Folgen erhalten den Praefix automatisch im RSS-Generator.
+Audio bleibt auf GitHub Pages; Folgen-GUIDs, Dateigroessen und Termine bleiben erhalten.
+OP3 misst Abrufe ab Umstellung, keine rueckwirkenden Hoerzahlen. Statistiken sind
+oeffentlich; eine Statistikseite kann erst nach einigen Tagen mit Downloads entstehen.
+Einrichtung pruefen: https://op3.dev/setup (dort obige Feed-URL eingeben).
+Dokumentation: https://op3.dev/api/docs
 
 ## Einmalige Einrichtung bei Spotify
 
